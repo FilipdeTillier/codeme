@@ -1,0 +1,203 @@
+/* Primary #fecc00 */
+/* Secondary #7a7a7a */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  --primary: #fecc00;
+  --secondary: #7a7a7a;
+}
+
+.main-page {
+  margin: auto;
+  max-width: 1024px;
+}
+
+.main-page .page-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.company-logo {
+  width: 134px;
+}
+
+.navigation-list {
+  display: flex;
+}
+
+.page-navigation .navigation-list-item {
+  list-style: none;
+  padding: 24px 12px;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+.page-navigation .navigation-list-item:hover {
+  color: var(--primary);
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.icon-wrapper {
+  position: relative;
+}
+
+.info-content {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-info:hover + .info-content {
+  display: block;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.h3 {
+  font-size: 24px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.section-divider {
+  margin-bottom: 120px;
+  margin-top: 120px;
+}
+
+.about-us-paragraph {
+  margin-bottom: 30px;
+}
+
+.primary-text {
+  color: var(--primary);
+}
+
+.secondary-text {
+  color: var(--secondary);
+}
+
+.button {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  float: right;
+  color: white;
+  transition: background-color 0.2s linear;
+}
+
+.primary-button {
+  background-color: var(--primary);
+}
+
+.secondary-button {
+  background-color: var(--secondary);
+}
+
+.primary-button:hover {
+  cursor: pointer;
+  background-color: #d6ab00;
+}
+
+.secondary-button:hover {
+  background-color: #9e9e9e;
+  cursor: pointer;
+}
+
+.mb-4 {
+  margin-bottom: 24px;
+}
+
+.mb-5 {
+  margin-bottom: 48px;
+}
+
+.pt-5 {
+  margin-top: 48px;
+}
+
+.pb-5 {
+  margin-bottom: 48px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list {
+  /* remove default styles */
+  list-style: none;
+}
+
+.list-item::before {
+  content: "\2022";
+  color: var(--primary);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  padding: none;
+  margin-bottom: 12px;
+}
+
+.technologies-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
