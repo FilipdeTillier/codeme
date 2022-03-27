@@ -249,7 +249,12 @@ h1 {
 .footer-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
+}
+
+.footer-socials {
+  display: flex;
+  flex-direction: column;
 }
 
 .links-container {
@@ -264,4 +269,8 @@ h1 {
 
 .footer-link:hover {
   opacity: 0.8;
+}
+
+.all-rights {
+  font-size: 12px;
 }
