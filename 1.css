@@ -1,0 +1,34 @@
+body {
+    /* Czcionka */
+    font-family: 'Courier New', Courier, monospace;
+
+    /* Rozmiar tekstu */
+    font-size: 16px;
+
+    /* Waga (grubość) tekstu */
+    font-weight: bold;
+
+    /* Kolor tekstu */
+    color: red;
+
+    /* Margines */
+    margin: 20px;
+    margin-right: 20px;
+
+    /* Padding (przestrzeń) */
+    padding: 20px;
+    padding-right: 20px;
+
+    /* Ułożenie elementów */
+
+        /* Elementy liniowe */
+        display: inline; 
+
+        /* Elementy blokowe */
+        display: block;
+
+        /* Flexbox */
+        display: flex;
+
+
+}

@@ -1,14 +1,19 @@
 /* Primary #fecc00 */
 /* Secondary #7a7a7a */
 
+/* Kaskadowość, utworzyć jeden taki sam element 
+pod drugim i pokazać jakie jest zachowanie */
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
+  /* Resetujemy defaultowe wartosci dla padding i margin  */
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  /* Zmienne CSS */
   --primary: #fecc00;
   --secondary: #7a7a7a;
 }
@@ -24,6 +29,7 @@ body {
   position: fixed;
   width: 100%;
   background-color: white;
+  z-index: 2;
 }
 
 .main-page {
